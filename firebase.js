@@ -1,15 +1,12 @@
-// ====== ISI BAGIAN INI DENGAN KONFIGURASI FIREBASE ANDA ======
-// Firebase Console > Project settings > Your apps > Web app > Config
 const firebaseConfig = {
-  apiKey: "ISI_API_KEY",
-  authDomain: "ISI_AUTH_DOMAIN",
-  databaseURL: "ISI_DATABASE_URL",
-  projectId: "ISI_PROJECT_ID",
-  storageBucket: "ISI_STORAGE_BUCKET",
-  messagingSenderId: "ISI_SENDER_ID",
-  appId: "ISI_APP_ID"
+  apiKey: "AIzaSyD2g4BeXNvikMfGzuqrzwUNRg7lRjbP1DI",
+  authDomain: "sistem-gerak-538c5.firebaseapp.com",
+  databaseURL: "https://sistem-gerak-538c5-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "sistem-gerak-538c5",
+  storageBucket: "sistem-gerak-538c5.firebasestorage.app",
+  messagingSenderId: "379671212909",
+  appId: "1:379671212909:web:8feb8f4be5d6056c232064"
 };
-// =============================================================
 
 firebase.initializeApp(firebaseConfig);
 const db = firebase.database(), auth = firebase.auth();
